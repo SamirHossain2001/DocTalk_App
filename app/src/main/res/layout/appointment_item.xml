@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#E2E6EF">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+        <TextView
+            android:id="@+id/appointmentDoctorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Md. Samir Hossain"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_alignParentStart="true"/>
+        <TextView
+            android:id="@+id/appointmentFee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="500 TK"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/appointmentPatientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient: Samir"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="4dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="4dp"
+        >
+        <TextView
+            android:id="@+id/appointmentDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Date: 2025-08-31"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            />
+        <TextView
+            android:id="@+id/appointmentTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Time: 10:00 AM"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/appointmentHospital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital: Mugda Medical Hospital"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="8dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#B1AEAE"
+        android:layout_marginBottom="8dp"/>
+    <TextView
+        android:id="@+id/bookingDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booked on: Aug 30, 2025"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:textStyle="italic"
+        />
+
+
+</LinearLayout>

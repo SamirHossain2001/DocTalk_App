@@ -1,0 +1,85 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:padding="10dp"
+    android:elevation="4dp"
+    android:background="@color/white">
+
+    <!-- Doctor Image -->
+    <ImageView
+        android:id="@+id/ivDoctorImage"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/banner_doctor" />
+
+    <!-- Doctor Name -->
+    <TextView
+        android:id="@+id/tvDoctorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/ivDoctorImage"
+        android:layout_marginStart="15dp"
+        android:text="Dr. A"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Specialization -->
+    <TextView
+        android:id="@+id/tvSpecialization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDoctorName"
+        android:layout_toEndOf="@id/ivDoctorImage"
+        android:layout_marginStart="15dp"
+        android:text="MBBS, FCPS,.."
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="5dp"/>
+
+    <!-- Hospital Name -->
+    <TextView
+        android:id="@+id/tvHospitalName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSpecialization"
+        android:layout_toEndOf="@id/ivDoctorImage"
+        android:layout_marginStart="15dp"
+        android:text="Mugda Medical Hospital"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="5dp"/>
+
+    <!-- Fee -->
+    <TextView
+        android:id="@+id/tvFee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fee: 100tk"
+        android:textColor="#4CAF50"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/ivDoctorImage"
+        android:layout_below="@id/tvHospitalName"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"/>
+    <!-- Book Button -->
+    <Button
+        android:id="@+id/btnBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/banner_blue"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/tvFee"
+        android:layout_marginEnd="15dp"
+        />
+
+</RelativeLayout>

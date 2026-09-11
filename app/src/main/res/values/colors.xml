@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="bg_screen">#F6F7FB</color>
+
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_muted">#5B5E66</color>
+
+    <color name="blue_primary">#2D6BFF</color>
+    <color name="blue_deep">#1F3F99</color>
+    <color name="purple_deep">#6F4EC9</color>
+    <color name="indigo_deep">#3F4D8F</color>
+    <color name="teal_deep">#2E6F7A</color>
+
+    <!-- Tiles -->
+    <color name="tile_blue">#7698D1</color>
+
+    <color name="tile_purple">#9C77E0</color>
+
+    <color name="tile_indigo">#5A64B3</color>
+
+    <color name="tile_teal">#6AB9C8</color>
+
+    <!-- Misc -->
+    <color name="avatar_bg">#E8EEF9</color>
+    <color name="icon_bg">#EEF1F6</color>
+    <color name="badge_red">#FF3B30</color>
+    <color name="banner_blue">#2E6BFF</color>
+    <color name="doctor_ph_bg">#5E93FF</color>
+    <color name="nav_bg">#DEE4F3</color>
+</resources>
