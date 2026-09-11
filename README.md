@@ -9,7 +9,7 @@ A simple Android app for finding doctors and booking appointments.
 
 ## Download
 
-[![Download APK](https://img.shields.io/badge/Download-APK-2D6BFF?style=for-the-badge&logo=android&logoColor=white)](https://github.com/SamirHossain2001/DocTalk_App/releases/latest)
+[![Download APK](https://img.shields.io/badge/Download-APK-2D6BFF?style=for-the-badge&logo=android&logoColor=white)](https://github.com/SamirHossain2001/DocTalk_App/releases/download/v1.0/app-debug.apk)
 
 Install on an Android phone, then allow installing from unknown sources when prompted.
 
