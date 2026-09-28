@@ -30,18 +30,19 @@ Install on an Android phone, then allow installing from unknown sources when pro
 
 ## Features
 
-- Email signup and login with a remember me option
+- Sign up and log in with an account saved on the device, with a remember me option
 - Browse doctors loaded from Firebase Realtime Database
 - Book appointments by picking a date and time
 - View appointment history
 - View and update your profile
-- Reminder notification one day before an appointment
+- Reminder notification at 9 AM the day before an appointment
 
 ## Tech Stack
 
 - Java and the Android SDK (min SDK 24, target SDK 36)
 - Firebase Realtime Database
-- Glide and Picasso for image loading
+- Glide for image loading
+- SharedPreferences for the on-device account and session
 - AlarmManager and BroadcastReceiver for reminders
 
 ## Build and Run
